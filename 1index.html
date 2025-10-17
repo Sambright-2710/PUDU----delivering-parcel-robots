@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUDU Parcel Robots - The Last Mile Solution</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f9fb;
+        }
+        .hero-section {
+            background-color: #0d47a1; /* Dark Blue */
+            background-image: linear-gradient(135deg, #0d47a1 0%, #1e88e5 100%);
+            color: white;
+        }
+        .feature-card {
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            background-color: white;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header & Hero Section -->
+    <header class="hero-section py-16 sm:py-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <!-- PUDU Logo/Title -->
+            <h1 class="text-5xl sm:text-7xl font-extrabold tracking-tight mb-4">
+                PUDU Parcel Robots
+            </h1>
+            <p class="text-xl sm:text-2xl font-light max-w-3xl mx-auto mb-10">
+                <strong>Revolutionizing the Last Mile in Vietnamese Urban Logistics.</strong>
+            </p>
+
+            <!-- Robot Hero Image (Image 1) -->
+            <div class="mt-10 max-w-xl mx-auto rounded-xl shadow-2xl overflow-hidden">
+                <img src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-lv5kYBdc2pQdFZKjQjQ7XioN/user-9mQdOyk2V8Smh6fZ2wR0vHKd/img-1b91f7a7c9Uq6p7x2rI8N8Vt.png?st=2024-05-01T01%3A00%3A00Z&se=2025-12-31T23%3A59%3A59Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image&skoid=uniqueid&sktid=uniqueid&skt=2025-10-16T01%3A00%3A00Z&ske=2025-12-31T23%3A59%3A59Z&sks=b&skv=2021-08-06&sig=unique" alt="PUDU delivery robot waiting in apartment corridor, showing QR code for package retrieval" class="w-full h-auto object-cover">
+            </div>
+
+            <a href="#solutions" class="mt-12 inline-block bg-white text-blue-800 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-gray-100 transition duration-300 transform hover:scale-105">
+                See Our Innovation
+            </a>
+        </div>
+    </header>
+
+    <!-- Problem Section -->
+    <section class="py-16 sm:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-extrabold text-gray-900 text-center mb-12">
+                The Costly Challenges of the Last Mile
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Challenge 1: Cost & Efficiency -->
+                <div class="p-6 bg-gray-50 rounded-xl shadow-lg">
+                    <div class="flex items-center space-x-4 mb-4">
+                        <svg class="w-8 h-8 text-red-500" aria-label="Cost icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" stroke-width="2" /><path stroke-width="2" d="M8 12h8M12 8v8"/></svg>
+                        <h3 class="text-xl font-semibold text-gray-900">High Costs & Delays</h3>
+                    </div>
+                    <p class="text-gray-600">Last-mile delivery in Vietnam is hugely inefficient, often accounting for <strong>up to 53%</strong> of total logistics costs. Traffic congestion and crowded elevators cause delays and frustration for both couriers and residents.</p>
+                </div>
+                <!-- Challenge 2: Security & Disputes -->
+                <div class="p-6 bg-gray-50 rounded-xl shadow-lg">
+                    <div class="flex items-center space-x-4 mb-4">
+                        <svg class="w-8 h-8 text-red-500" aria-label="Security icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><rect x="7" y="10" width="10" height="8" rx="2" stroke-width="2"/><path stroke-width="2" d="M12 16v-2"/></svg>
+                        <h3 class="text-xl font-semibold text-gray-900">Security & Disputes</h3>
+                    </div>
+                    <p class="text-gray-600">Lack of reliable recipient verification leads to lost packages, mistaken deliveries, and constant conflicts between residents and couriers.</p>
+                </div>
+                <!-- Challenge 3: Human Resources & Safety -->
+                <div class="p-6 bg-gray-50 rounded-xl shadow-lg">
+                    <div class="flex items-center space-x-4 mb-4">
+                        <svg class="w-8 h-8 text-red-500" aria-label="Safety icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-width="2" d="M12 4v16M4 12h16"/></svg>
+                        <h3 class="text-xl font-semibold text-gray-900">Safety & Shortages</h3>
+                    </div>
+                    <p class="text-gray-600">Urban staff shortages are common, and the demand for contactless, hygienic delivery has become an essential health and safety requirement.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Value / Target Customer Section -->
+    <section id="solutions" class="py-16 sm:py-24 bg-blue-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <span class="text-base text-blue-600 font-semibold tracking-wide uppercase">PUDU CORE VALUE</span>
+            <h2 class="mt-2 text-4xl font-extrabold text-gray-900">
+                Direct, Door-to-Door, Secure Delivery.
+            </h2>
+            <p class="mt-4 text-xl text-gray-600 max-w-4xl mx-auto">
+                We empower apartment residents, building management boards, and e-commerce providers by turning multi-story buildings into smart, efficient logistics centers.
+            </p>
+
+            <div class="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Value Prop 1 -->
+                <div class="feature-card p-6 rounded-xl shadow-md">
+                    <svg class="w-10 h-10 text-blue-600 mb-4 mx-auto" aria-label="Speed icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-width="2" d="M4 12h16M12 4v16"/></svg>
+                    <h4 class="text-lg font-bold text-gray-900 mb-2">Faster & More Reliable</h4>
+                    <p class="text-gray-500 text-sm">Eliminate elevator wait times and traffic delays within the complex.</p>
+                </div>
+                <!-- Value Prop 2 -->
+                <div class="feature-card p-6 rounded-xl shadow-md">
+                    <svg class="w-10 h-10 text-blue-600 mb-4 mx-auto" aria-label="OTP icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><rect x="6" y="8" width="12" height="8" rx="2" stroke-width="2"/><circle cx="12" cy="12" r="2" stroke-width="2"/></svg>
+                    <h4 class="text-lg font-bold text-gray-900 mb-2">Secure Handover (OTP)</h4>
+                    <p class="text-gray-500 text-sm">Automated verification (OTP/Facial Rec.) minimizes disputes and theft.</p>
+                </div>
+                <!-- Value Prop 3 -->
+                <div class="feature-card p-6 rounded-xl shadow-md">
+                    <svg class="w-10 h-10 text-blue-600 mb-4 mx-auto" aria-label="Cost Savings icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-width="2" d="M8 12h8M12 8v8"/><circle cx="12" cy="12" r="10" stroke-width="2"/></svg>
+                    <h4 class="text-lg font-bold text-gray-900 mb-2">Significant Cost Savings</h4>
+                    <p class="text-gray-500 text-sm">Reduces dependency on human couriers, lowering operational expenses.</p>
+                </div>
+                <!-- Value Prop 4 -->
+                <div class="feature-card p-6 rounded-xl shadow-md">
+                    <svg class="w-10 h-10 text-blue-600 mb-4 mx-auto" aria-label="Hygiene icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><rect x="4" y="6" width="16" height="12" rx="2" stroke-width="2"/></svg>
+                    <h4 class="text-lg font-bold text-gray-900 mb-2">Contactless & Hygienic</h4>
+                    <p class="text-gray-500 text-sm">Sealed compartments and minimal human interaction for health safety.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Innovation Highlights Section -->
+    <section class="py-16 sm:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-extrabold text-gray-900 text-center mb-12">
+                PUDU Innovation: Navigating Vertical Cities
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                
+                <!-- Innovation Text -->
+                <div class="space-y-8">
+                    <div class="flex space-x-4">
+                        <span class="flex-shrink-0 text-3xl font-bold text-blue-600">1.</span>
+                        <div>
+                            <h3 class="text-2xl font-semibold text-gray-900">AI-Powered Multi-Sensor Navigation</h3>
+                            <p class="mt-2 text-gray-600">PUDU utilizes advanced systems like <strong>V-SLAM and 3D LiDAR</strong> for precise real-time mapping. This multi-sensor fusion allows the robot to safely navigate challenging building layouts.</p>
+                        </div>
+                    </div>
+                    <div class="flex space-x-4">
+                        <span class="flex-shrink-0 text-3xl font-bold text-blue-600">2.</span>
+                        <div>
+                            <h3 class="text-2xl font-semibold text-gray-900">Seamless Elevator Integration (Game-Changer)</h3>
+                            <p class="mt-2 text-gray-600">Our proprietary system allows the robot to <strong>communicate directly with the building's management system</strong> to call, wait for, and ride the elevator autonomously.</p>
+                        </div>
+                    </div>
+                    <div class="flex space-x-4">
+                        <span class="flex-shrink-0 text-3xl font-bold text-blue-600">3.</span>
+                        <div>
+                            <h3 class="text-2xl font-semibold text-gray-900">Real-Time Tracking & Reporting</h3>
+                            <p class="mt-2 text-gray-600">Full transparency is provided via a dedicated mobile application, allowing residents to monitor the robot's exact location and status from their phones.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Innovation Image (Image 2) -->
+                <div class="rounded-xl shadow-2xl overflow-hidden">
+                    <img src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-lv5kYBdc2pQdFZKjQjQ7XioN/user-9mQdOyk2V8Smh6fZ2wR0vHKd/img-8d369e85dZVQjhWBJdU5T6z5.png?st=2024-05-01T01%3A00%3A00Z&se=2025-12-31T23%3A59%3A59Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image&skoid=uniqueid&sktid=uniqueid&skt=2025-10-16T01%3A00%3A00Z&ske=2025-12-31T23%3A59%3A59Z&sks=b&skv=2021-08-06&sig=unique" alt="PUDU robot with open compartments revealing delivered parcels and navigation screen" class="w-full h-auto object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <footer class="py-12 bg-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h3 class="text-3xl font-bold text-white mb-4">Ready to Transform Your Logistics?</h3>
+            <p class="text-gray-400 mb-8">Schedule a pilot program consultation today to see PUDU robots in action.</p>
+            <a href="#" class="inline-block bg-blue-600 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-blue-700 transition duration-300 transform hover:scale-105">
+                Contact Our Team
+            </a>
+            <p class="mt-8 text-sm text-gray-500">&copy; 2025 PUDU Parcel Robots. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
